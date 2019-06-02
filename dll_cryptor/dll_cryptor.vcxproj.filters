@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="misc.cpp" />
+    <ClCompile Include="pefile\pe_base.cpp">
+      <Filter>pefile</Filter>
+    </ClCompile>
+    <ClCompile Include="pefile\pe_file.cpp">
+      <Filter>pefile</Filter>
+    </ClCompile>
+    <ClCompile Include="pefile\pe_export.cpp">
+      <Filter>pefile</Filter>
+    </ClCompile>
+    <ClCompile Include="crypt.cpp" />
+    <ClCompile Include="pefile\pe_import.cpp">
+      <Filter>pefile</Filter>
+    </ClCompile>
+    <ClCompile Include="pefile\pe_relocs.cpp">
+      <Filter>pefile</Filter>
+    </ClCompile>
+    <ClCompile Include="pefile\pe_tls.cpp">
+      <Filter>pefile</Filter>
+    </ClCompile>
+    <ClCompile Include="pefile\pe_section.cpp">
+      <Filter>pefile</Filter>
+    </ClCompile>
+    <ClCompile Include="pefile\pe_rsrc.cpp">
+      <Filter>pefile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="misc.h" />
+    <ClInclude Include="pefile\pe_base.h">
+      <Filter>pefile</Filter>
+    </ClInclude>
+    <ClInclude Include="pefile\pe_file.h">
+      <Filter>pefile</Filter>
+    </ClInclude>
+    <ClInclude Include="pefile\pe_export.h">
+      <Filter>pefile</Filter>
+    </ClInclude>
+    <ClInclude Include="crypt.h" />
+    <ClInclude Include="pefile\pe_import.h">
+      <Filter>pefile</Filter>
+    </ClInclude>
+    <ClInclude Include="rsrc\resource.h" />
+    <ClInclude Include="pefile\pe_relocs.h">
+      <Filter>pefile</Filter>
+    </ClInclude>
+    <ClInclude Include="pefile\pe_tls.h">
+      <Filter>pefile</Filter>
+    </ClInclude>
+    <ClInclude Include="pefile\pe_section.h">
+      <Filter>pefile</Filter>
+    </ClInclude>
+    <ClInclude Include="pefile\pe_rsrc.h">
+      <Filter>pefile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="pefile">
+      <UniqueIdentifier>{f217c0fd-fe49-4794-a82e-e66960d704ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rsrc\dll_cryptor.rc" />
+  </ItemGroup>
+</Project>
