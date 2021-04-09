@@ -3,6 +3,10 @@
 ###############################################################################
 * text=auto
 
+*.h linguist-detectable=false
+
+*.c linguist-detectable=false
+
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
