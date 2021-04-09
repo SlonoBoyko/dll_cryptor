@@ -7,5 +7,6 @@ And he was surprised.  Why didn't I do it then?  It's so easy :)
 If you want to help me financially, 
 you can send cryptocurrency to my wallets:
 
-Bitcoin: <b>1PW8z6TDn6QvJWC9FxoHD1L71BmbfvcETR</b>\r\n
+Bitcoin: <b>1PW8z6TDn6QvJWC9FxoHD1L71BmbfvcETR</b><br>
+
 Monero : <b>438fr2CeS65SQvUGdSKr1uC1vTcW4PbCQ38hHGqFBSUkfvSw2pzWDuk2j9JG9QybcwMrG6xzj98w3BQkCkCZAz37GsLxXfF</b>
